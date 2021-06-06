@@ -1,0 +1,28 @@
+.header{
+	grid-area:"header";
+	grid-template-columns:2fr 15fr;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.header__nav-li{
+	font-size:20px;
+	margin-right:41.4px;
+}
+.header__nav{
+	margin-top:35px;
+	margin-left:153px;
+}
+.header__nav-li:last-child{
+	margin-right:0px;
+	margin-left:-7px;
+}
+.header__nav-li-active{
+	background-color: #9B242D;
+	color:white;
+	margin-right:20px;
+	padding-top:11.5px;
+	padding-bottom:11.5px;
+	padding-left:20.5px;
+	padding-right:20.5px;
+	border-radius:3px;
+}

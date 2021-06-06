@@ -1,0 +1,71 @@
+.events{
+	background-image:url(/images/belowBanner.jpg);
+	width:100%;
+	grid-area:"events";
+	background-size:100%;
+	height:1285px;
+	background-repeat:no-repeat;
+	grid-template-rows:500px;
+	}
+.events__div1{
+	grid-template-columns:9fr 5fr;
+	height:500px;
+}
+.events__div2{
+	grid-template-columns:10fr 8fr;
+	margin-right:7px;
+}
+.events__div3{
+	grid-template-columns:12fr 5fr;
+	margin-top:310px;
+	font-size:21.2px;
+	margin-left:-19px;
+	font-family:"Regular Roboto";
+}
+.events__div3 a{
+	width:100px;
+	height:25px;
+}
+.events__div1 h1{
+	font-size:54px;
+	margin-top:155px;
+}
+.events__div1 p{
+	font-size:22px;
+	margin-top:-32px;
+	font-family:"Regular Roboto";
+}
+.events__div2{
+	text-align:right;
+	margin-top:-21px;
+}
+.events__div2 h1{
+	font-size:54px;
+}
+.events__div2 h1{
+	font-size:54px;
+}
+.events__div2-text-to-input{
+	width:374px;
+	margin-right:-5px;
+	height:58px;
+	background-color: #5EC069;
+}
+.events__div2-text-to-input::placeholder{
+	color:#46A651;
+	font-family:"Regular Roboto";
+	font-size:22px;
+}
+.events__div2-submit{
+	width:166px;
+	height:58px;
+	font-size:22px;
+	font-family:"Regular Roboto";
+	background-color: #348E3E;
+}
+.events__div2-label{
+	width:700px;
+	font-size:22px;
+	margin-top:18px;
+	font-family:"Regular Roboto";
+}

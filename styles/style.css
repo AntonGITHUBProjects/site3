@@ -1,0 +1,96 @@
+@font-face {
+	font-family: Slab Roboto;
+	/* Гарнитура шрифта */
+	src: url(/fonts/RobotoSlab.ttf);
+	/* Путь к файлу со шрифтом */
+}
+
+@font-face {
+	font-family: Regular OpenSans;
+	/* Гарнитура шрифта */
+	src: url(/fonts/OpenSans-Regular.ttf);
+	/* Путь к файлу со шрифтом */
+}
+
+@font-face {
+	font-family: Sans Open;
+	/* Гарнитура шрифта */
+	src: url(/fonts/OpenSans-Bold.ttf);
+	/* Путь к файлу со шрифтом */
+}
+
+@font-face {
+	font-family: Regular Roboto;
+	/* Гарнитура шрифта */
+	src: url(/fonts/Roboto-Regular.ttf);
+	/* Путь к файлу со шрифтом */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Slab Roboto";
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main-content {
+	max-width: 1920px;
+	grid-template-areas:
+		"header"
+		"banner",
+		"events",
+		"events2",
+		"footer";
+}
+
+/*Служебные стили*/
+.max-width-1170px {
+	max-width: 1390px;
+}
+
+.display-grid {
+	display: grid;
+}
+
+.margin-center-auto {
+	margin: 0 auto;
+}
+
+.display-inline li {
+	display: inline;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.color-white {
+	color: white;
+}
+
+.color-grey {
+	color: #818181;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.border-0 {
+	border: 0;
+}
+
+.text-align-right {
+	text-align: right;
+}

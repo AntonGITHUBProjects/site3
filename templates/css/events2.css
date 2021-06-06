@@ -1,0 +1,74 @@
+.events2{
+	grid-area:"events2";
+	background-color:white;
+	text-align:center;
+}
+.events2__h1{
+	font-size:70px;
+	margin-top:110px;
+	font-weight:100;
+}
+.events2__cards{
+	grid-template-columns:repeat(3,477px);
+	max-width:1430px;
+	margin-top:25px;
+	justify-content:center;
+}
+.events2__card_number-rectangle{
+	background-color:#373838;
+	max-width:120px;
+	padding-top:23px;
+	padding-bottom:23px;
+	font-size:48px;
+	font-family: "Slab Roboto";
+}
+.events2__card_number-rectangle:after{
+	content:"";
+	position: absolute;
+	margin-top:95px;
+	margin-left:-43.5px;
+    border: 21px solid transparent; /* Прозрачные границы */
+    border-top: 21px solid #373838; /* Добавляем треугольник */
+}
+.events2__cards h2{
+	color:#9B242D;
+	font-size:42px;
+	margin-top:27px;
+}
+.events2__cards h4{
+	font-size:24.5px;
+	margin-top:26px;
+}
+.events2__cards p{
+	font-size:19.5px;
+	margin-top:12px;
+	font-family: Regular Roboto;
+}
+.events2__card-button{
+	border:0;
+	background-color:#373838;
+	font-size:20px;
+	width:119.5px;
+	margin-top:23px;
+	padding-top:13px;
+	padding-bottom:13px;
+	font-family: Regular Roboto;
+}
+.background-color-red{
+	background-color:#9B242D;
+}
+.events2__first-card{
+	background-color:#9B242D;
+}
+.events2__first-card:after{
+	border-top: 21px solid #9B242D;
+}
+.events2__second-card:after{
+	margin-left:-45px;
+}
+.events2__third-card:after{
+	margin-left:-46px;
+}
+.events2__cards{
+	padding-bottom:195px;
+}

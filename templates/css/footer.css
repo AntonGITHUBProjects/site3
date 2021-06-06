@@ -1,0 +1,83 @@
+.footer {
+	background-color: #373838;
+	height: 550px;
+}
+
+.footer__menu-li {
+	font-size: 20px;
+	margin-right: 80px;
+}
+
+.footer__menu-ul {
+	margin-left: 36px;
+	margin-top: 77px;
+}
+
+.footer__menu-li:hover {
+	color: white
+}
+
+.footer__social {
+	grid-template-columns: repeat(3, 3fr);
+	margin-top: -15px;
+}
+
+.footer h3 {
+	color: #C6C6C6;
+	font-size: 25px;
+}
+
+.footer__hr {
+	background-color: #4B4C4C;
+	width: 1390px;
+}
+
+.footer__social-div-follow-us-social-li img {
+	width: 55px;
+	height: 55px;
+}
+
+.footer__social-div-follow-us-social-li {
+	margin-left: 9px;
+}
+
+.footer__social-div-follow-us-social {
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.footer__social-div-h3-news-letter {
+	margin-left: -300px;
+}
+
+.footer__social-div-form-input {
+	width: 275px;
+	height: 52px;
+	background-color: #494949;
+	margin-left: 10px;
+	font-size: 19px;
+	font-weight: 100;
+	font-family: Regular Roboto;
+}
+
+.footer__social-div-form-input-submit {
+	background-color: #9B242D;
+	width: 167px;
+	height: 52px;
+	padding-bottom: 3px;
+	margin-left: -5px;
+	font-size: 22px;
+	font-family: Regular Roboto;
+}
+
+.footer__social-div-form {
+	margin-top: 18px;
+}
+
+.footer__social-div-contant-us-address {
+	margin-left: 233px;
+	margin-top: 5px;
+	color: #848484;
+	font-size: 18px;
+	font-family: Regular OpenSans;
+}
